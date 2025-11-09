@@ -1,0 +1,87 @@
+body {
+  font-family: 'Segoe UI', 'Poppins', sans-serif;
+  background: linear-gradient(to right, #dbe9ff, #f0f8ff);
+  padding: 30px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #0077cc;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px rgba(0, 119, 204, 0.3);
+}
+
+input, button {
+  font-size: 1em;
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+input::placeholder {
+  color: #666;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.5);
+  transform: scale(1.05);
+}
+
+#chatbox {
+  width: 90%;
+  max-width: 600px;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#chatbox p {
+  font-size: 1em;
+  margin: 8px 0;
+  color: #222;
+}
+
+#saldo {
+  font-size: 1.2em;
+  margin-top: 20px;
+  color: #0077cc;
+  text-shadow: 0 0 5px rgba(0, 119, 204, 0.2);
+}
+
+#clear {
+  margin-top: 20px;
+  background-color: rgba(255, 80, 80, 0.3);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1em;
+  border-radius: 15px;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px rgba(255, 80, 80, 0.2);
+  transition: all 0.3s ease;
+}
+
+#clear:hover {
+  background-color: rgba(255, 80, 80, 0.5);
+  transform: scale(1.05);
+}
